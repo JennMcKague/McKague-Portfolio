@@ -1,0 +1,43 @@
+body {
+    margin:0;
+    background-color:white;
+}
+
+nav {
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-menu {
+    display:flex;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    font-family: "Verdana" Arial, Helvetica, sans-serif
+}
+
+#brand {
+    margin-left:5px;
+}
+
+.menu-item {
+    margin: 0px 5px;
+}
+
+a {
+    text-decoration: non;
+    color: white;
+}
+
+a.one:link {color:blue;}
+a.one:visited {color: blue;}
+a.one:hover {color:pink;}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
